@@ -88,7 +88,7 @@ class _FaceIDMessagePageWidgetState extends State<FaceIDMessagePageWidget>
         ),
         title: Text(
           FFLocalizations.of(context).getText(
-            '3qli3s08' /* Face ID */,
+            'fo0c9wka' /* Face ID */,
           ),
           style: FlutterFlowTheme.of(context).title3,
         ),
@@ -107,7 +107,7 @@ class _FaceIDMessagePageWidgetState extends State<FaceIDMessagePageWidget>
                 padding: EdgeInsetsDirectional.fromSTEB(20.0, 30.0, 20.0, 0.0),
                 child: Text(
                   FFLocalizations.of(context).getText(
-                    'ir9dvhqq' /* Данные лица нужны для подтверж... */,
+                    'p6etavyf' /* Данные лица нужны для подтверж... */,
                   ),
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).bodyText1,
@@ -152,7 +152,7 @@ class _FaceIDMessagePageWidgetState extends State<FaceIDMessagePageWidget>
                     );
                   },
                   text: FFLocalizations.of(context).getText(
-                    'wytc3grk' /* Сканировать */,
+                    'if01jadk' /* Сканировать */,
                   ),
                   options: FFButtonOptions(
                     width: 250.0,

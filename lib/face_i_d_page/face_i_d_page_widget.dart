@@ -1,8 +1,10 @@
+import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -16,11 +18,35 @@ class FaceIDPageWidget extends StatefulWidget {
   _FaceIDPageWidgetState createState() => _FaceIDPageWidgetState();
 }
 
-class _FaceIDPageWidgetState extends State<FaceIDPageWidget> {
+class _FaceIDPageWidgetState extends State<FaceIDPageWidget>
+    with TickerProviderStateMixin {
   late FaceIDPageModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
   final _unfocusNode = FocusNode();
+
+  final animationsMap = {
+    'imageOnPageLoadAnimation': AnimationInfo(
+      loop: true,
+      trigger: AnimationTrigger.onPageLoad,
+      effects: [
+        ScaleEffect(
+          curve: Curves.elasticOut,
+          delay: 0.ms,
+          duration: 2000.ms,
+          begin: 0.9,
+          end: 1.0,
+        ),
+        ScaleEffect(
+          curve: Curves.elasticOut,
+          delay: 2000.ms,
+          duration: 2000.ms,
+          begin: 1.0,
+          end: 0.9,
+        ),
+      ],
+    ),
+  };
 
   @override
   void initState() {
@@ -67,7 +93,7 @@ class _FaceIDPageWidgetState extends State<FaceIDPageWidget> {
         ),
         title: Text(
           FFLocalizations.of(context).getText(
-            'zfoyw4n8' /* Face ID */,
+            'vw0zc2f8' /* Face ID */,
           ),
           style: FlutterFlowTheme.of(context).title3,
         ),
@@ -135,7 +161,8 @@ class _FaceIDPageWidgetState extends State<FaceIDPageWidget> {
                         child: Image.asset(
                           'assets/images/face.png',
                           fit: BoxFit.cover,
-                        ),
+                        ).animateOnPageLoad(
+                            animationsMap['imageOnPageLoadAnimation']!),
                       ),
                     ],
                   ),
@@ -151,14 +178,14 @@ class _FaceIDPageWidgetState extends State<FaceIDPageWidget> {
                               0.0, 0.0, 0.0, 16.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              'ejgfsi9g' /* 100% */,
+                              'ujzdbe40' /* 100% */,
                             ),
                             style: FlutterFlowTheme.of(context).title1,
                           ),
                         ),
                         Text(
                           FFLocalizations.of(context).getText(
-                            'd3vm88ci' /* Сканируем ваше лицо */,
+                            'x7p0tdpx' /* Сканируем ваше лицо */,
                           ),
                           style: FlutterFlowTheme.of(context).bodyText1,
                         ),

@@ -167,7 +167,7 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 24.0,
             ),
             label: FFLocalizations.of(context).getText(
-              'nlo4hydd' /* Создать */,
+              'ds2aaxhm' /* Создать */,
             ),
             tooltip: '',
           ),
@@ -181,7 +181,7 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 24.0,
             ),
             label: FFLocalizations.of(context).getText(
-              '4i8tyrhe' /* Создать */,
+              't3wjegrr' /* Создать */,
             ),
             tooltip: '',
           ),
@@ -195,7 +195,7 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 24.0,
             ),
             label: FFLocalizations.of(context).getText(
-              'bh67rqxw' /* Создать */,
+              '0rctxkqc' /* Создать */,
             ),
             tooltip: '',
           )

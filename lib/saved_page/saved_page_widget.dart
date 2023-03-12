@@ -46,7 +46,7 @@ class _SavedPageWidgetState extends State<SavedPageWidget> {
           automaticallyImplyLeading: false,
           title: Text(
             FFLocalizations.of(context).getText(
-              'cx9y9w1m' /* Сохраненное */,
+              'b66hftr8' /* Сохраненное */,
             ),
             style: FlutterFlowTheme.of(context).title3,
           ),

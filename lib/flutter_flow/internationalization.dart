@@ -567,23 +567,23 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // FaceIDMessagePage
   {
-    'ir9dvhqq': {
+    'p6etavyf': {
       'ru':
           'Данные лица нужны для подтверждения личности, обеспечения безопасности услуг и платежей, соблюдения налогового законодательства',
       'en': '',
       'ky': '',
     },
-    'wytc3grk': {
+    'if01jadk': {
       'ru': 'Сканировать',
       'en': '',
       'ky': '',
     },
-    '3qli3s08': {
+    'fo0c9wka': {
       'ru': 'Face ID',
       'en': '',
       'ky': '',
     },
-    'u6xbrtwn': {
+    '7bhssuza': {
       'ru': 'Home',
       'en': '',
       'ky': '',
@@ -591,22 +591,22 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // FaceIDPage
   {
-    'ejgfsi9g': {
+    'ujzdbe40': {
       'ru': '100%',
       'en': '',
       'ky': '',
     },
-    'd3vm88ci': {
+    'x7p0tdpx': {
       'ru': 'Сканируем ваше лицо',
       'en': '',
       'ky': '',
     },
-    'zfoyw4n8': {
+    'vw0zc2f8': {
       'ru': 'Face ID',
       'en': '',
       'ky': '',
     },
-    'ejew8qp8': {
+    '5bfcv329': {
       'ru': 'Home',
       'en': '',
       'ky': '',
@@ -614,12 +614,12 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // AddPage
   {
-    'wnq3hyz4': {
+    'iwcivoc2': {
       'ru': 'Создать',
       'en': '',
       'ky': '',
     },
-    'nlo4hydd': {
+    'ds2aaxhm': {
       'ru': 'Создать',
       'en': '',
       'ky': '',
@@ -627,12 +627,12 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // SavedPage
   {
-    'cx9y9w1m': {
+    'b66hftr8': {
       'ru': 'Сохраненное',
       'en': '',
       'ky': '',
     },
-    '4i8tyrhe': {
+    't3wjegrr': {
       'ru': 'Создать',
       'en': '',
       'ky': '',
@@ -640,12 +640,12 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // AccountPage
   {
-    'iye8l7ss': {
+    'ua7v7ecp': {
       'ru': 'Профиль',
       'en': '',
       'ky': '',
     },
-    'bh67rqxw': {
+    '0rctxkqc': {
       'ru': 'Создать',
       'en': '',
       'ky': '',
