@@ -1,6 +1,8 @@
 # OneForAll
 
-A new Flutter project.
+Flutterflow DEMO app.
+
+MVP and Main Prod will be writed with Flutter/BloC pattern/DDD Architecture.
 
 ## Getting Started
 
