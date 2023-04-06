@@ -46,7 +46,7 @@ class _AddPageWidgetState extends State<AddPageWidget> {
           automaticallyImplyLeading: false,
           title: Text(
             FFLocalizations.of(context).getText(
-              'wnq3hyz4' /* Создать */,
+              'iwcivoc2' /* Создать */,
             ),
             style: FlutterFlowTheme.of(context).title3,
           ),

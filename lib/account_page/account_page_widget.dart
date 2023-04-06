@@ -46,7 +46,7 @@ class _AccountPageWidgetState extends State<AccountPageWidget> {
           automaticallyImplyLeading: false,
           title: Text(
             FFLocalizations.of(context).getText(
-              'iye8l7ss' /* Профиль */,
+              'ua7v7ecp' /* Профиль */,
             ),
             style: FlutterFlowTheme.of(context).title3,
           ),
